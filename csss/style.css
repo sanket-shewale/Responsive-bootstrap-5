@@ -247,6 +247,7 @@ style attribute {
   font-size: 1.8em !important;
   margin: 5px -3px 3px 5px;
 }
+
 @media (max-width: 700px) {
   .quote button {
     height: 30px !important;
@@ -294,5 +295,55 @@ style attribute {
   }
   .parag p {
     margin: 0px 0px 0px 0px;
+  }
+  .offerbtn a {
+    border: 2px solid #b00000;
+    padding: 6px 11px 6px 11px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: small;
+  }
+  .offerque a  {
+  border: 2px solid #b00000;
+  padding: 6px 11px 6px 11px;
+  text-align: center;
+  background-color: #b00000;
+  color: #fff;
+  font-size: small;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header .right {
+  height: 450px;
+  left: 68%;
+  position: absolute;
+  width: 100%;
+  transform: skewx(-30deg);
+  display: none;
+  border-left: 11px solid rgb(255, 255, 255);
+}
+header .left {
+  position: absolute;
+  width: auto;
+  left: -10%;
+}
+}
+
+
+@media (max-width:1029px) {
+  header .right {
+    height: 450px;
+    left: 68%;
+    position: absolute;
+    width: 100%;
+    transform: skewx(-30deg);
+    display: none;
+    border-left: 11px solid rgb(255, 255, 255);
+  }
+  header .left {
+    position: absolute;
+    width: auto;
+    left: -10%;
   }
 }

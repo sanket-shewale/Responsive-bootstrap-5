@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 header {
   height: 450px;
@@ -331,7 +331,7 @@ header .left {
 }
 
 
-@media (max-width:1029px) {
+@media (max-width:1029.33px) {
   header .right {
     height: 450px;
     left: 68%;

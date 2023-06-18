@@ -329,6 +329,14 @@ header .left {
   left: -10%;
 }
 }
+@media (max-width:768px) {
+.aa span {
+  margin-top: 2.3rem !important;
+}
+
+}
+
+
 
 
 @media (max-width:1029.33px) {

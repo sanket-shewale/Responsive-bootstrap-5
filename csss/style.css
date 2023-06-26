@@ -247,6 +247,25 @@ style attribute {
   font-size: 1.8em !important;
   margin: 5px -3px 3px 5px;
 }
+#to-top{ 
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: #b00000;
+  padding: 10PX;
+  border-radius: 10px;
+}
+#to-top:hover{
+  box-shadow:0 0 20px 0 rgba(0,0,0,0.3) ;
+  transform: translateY(-20px);
+   transition:0.3s linear all;
+   background-color: #ea0a0a;
+   color: #fff;
+   border-radius: 9%;
+}
 
 @media (max-width: 700px) {
   .quote button {
